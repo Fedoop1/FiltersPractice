@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+@RenderBody()
+<hr align="left" width="500" size="2" color="##fcba03"/>
+<ul>
+    <li><a asp-action="Index">Back to home page</a></li>
+    <li><a asp-action="Profile">Back to profile method</a></li>
+    <li><a asp-action="RangeException" asp-route-id="17">Back to range method with exception</a></li>
+    <li><a asp-action="RangeException" asp-route-id="18">Back to range method without exception</a></li>
+    <li><a asp-action="ViewDetails">Back to details method</a></li>
+    <li><a asp-action="ResourceTester">Back to resource test method</a></li>
+</ul>
+</body>
+</html>
